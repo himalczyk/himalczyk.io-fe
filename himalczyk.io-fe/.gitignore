@@ -1,0 +1,82 @@
+# IDE and Editor files
+.history/
+*.code-workspace
+.vim/
+*.swm
+
+# Environment files
+.env.*
+!.env.example
+
+# Dependency directories
+.npm/
+.pnpm/
+
+# Debug logs
+debug.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build and temp files
+.next/
+.nuxt/
+.temp/
+.tmp/
+.cache/
+dist-ssr/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Local development
+*.local
+local.*
+
+# Logs and databases
+*.sqlite
+*.log.*
+lerna-debug.log*
+
+# Editor directories and files
+.project
+.classpath
+.settings/
+*.sublime-*
+.netbeans/
+nbproject/
+.idea
+*.iml
+*.ipr
+*.iws
